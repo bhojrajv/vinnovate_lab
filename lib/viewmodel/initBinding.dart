@@ -11,6 +11,7 @@ class InitiBinding extends Bindings{
     Get.lazyPut(() => CourseController(apiServices: ApiServices()));
     Get.lazyPut(() => SignUpcontroller());
     Get.lazyPut(() => LoginController());
+    Get.create(() => LoginController());
   }
 
 }

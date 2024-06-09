@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vinnovate_task/Appconst/appcolors.dart';
+import 'package:vinnovate_task/view/auth/login_screen.dart';
 import 'package:vinnovate_task/view/common_textfield.dart';
 import 'package:vinnovate_task/view/course_screen.dart';
 import 'package:vinnovate_task/viewmodel/signupcontroller.dart';
@@ -35,7 +36,9 @@ class SignupScreen extends GetView<SignUpcontroller> {
               ),),
             ),Row(mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Already Do have an account?",style: TextStyle(fontSize: 15)),SizedBox(width: 5,),Text("Login In",style: TextStyle(color: AppcColors.textcolor,fontWeight: FontWeight.bold))
+                Text("Already Do have an account?",style: TextStyle(fontSize: 15)),SizedBox(width: 5,),InkWell(onTap: (){
+                  Get.to(()=>Loginscreen());
+                }, child: Text("Login In",style: TextStyle(color: AppcColors.textcolor,fontWeight: FontWeight.bold)))
               ],
             )],),),
         ),
