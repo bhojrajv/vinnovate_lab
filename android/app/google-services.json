@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1018576401228",
+    "project_id": "vinnovate-83a4e",
+    "storage_bucket": "vinnovate-83a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018576401228:android:67e9417f0bc6def48c15e9",
+        "android_client_info": {
+          "package_name": "com.example.vinnovate_task"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018576401228-7o0n4e0gat2ibbdjms24gq91fbhuurqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjFlfaUzHfOpwCFp7V8bfZRG8OSEFmcdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018576401228-7o0n4e0gat2ibbdjms24gq91fbhuurqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
